@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+
+body {
+    width: 100%;
+    height:100%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+    /* background-image: url("basketball-background-hd.jpg"); */
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: 100% 100%;
+    align-content: center;
+    align-items: center;
+    margin:auto
+}
+
+/* .logreg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width:240px;
+    height:200px;
+    border-color: transparent;
+    border-image-outset: 10px;
+   
+
+} */
+.login {
+    margin: auto;
+    border: none;
+    color:black;
+    /* background-color: blanchedalmond; */
+  
+    
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    align-content: center;
+    width:30vw;
+    height:60vh;
+    margin-top: 20vh;
+    
+  }
+
+
+h1{
+color:black;
+text-align: center;
+
+}
+
+
+.radio{
+  position: relative;
+  cursor: pointer;
+  font-size: 22px;
+  /* -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; */
+  
+}
+.button{
+background: #008CBA;
+border-color: #008CBA;
+}
+
+/* .center {
+  margin: auto;
+  width: 15%;
+  border: 3px solid green;
+  padding: 10px;
+  text-align: center;
+  
+} */
+.label{
+  text-align: left;
+}
+
+input {
+    width: 100%;
+    border-color: black ;
+    border-radius: px;
+    outline: none;
+    padding: 10px;
+    font-size: 13px;
+    color:black;
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    /* box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2); */
+    /* -webkit-transition: box-shadow .5s ease;
+    -moz-transition: box-shadow .5s ease;
+    -o-transition: box-shadow .5s ease;
+    -ms-transition: box-shadow .5s ease;
+    transition: box-shadow .5s ease; */
+  
+}
+form{
+margin: auto;
+background-color: white;
+color:black;
+padding: 25px;
+}
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  
+}
+li{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2); } */

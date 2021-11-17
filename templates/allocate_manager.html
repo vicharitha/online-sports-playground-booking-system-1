@@ -1,0 +1,19 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Allocate a manager</title>
+    <link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='/turf.css') }}">
+</head>
+<body>
+<form action="/allocate_manager" method="POST" style = "width: 50vw;height:50vh;margin-top: 25vh;text-align: center;">
+<div class="" style = "width: 50vw" >
+<h1>Allocate a manager</h1>
+    <input type="text" class="" value="" style="width: 40vw;" placeholder="Enter the manager to want to assign" name="man">
+    <input type="text" class=""style="width: 40vw;" value="" placeholder="Enter for which location" name="loc">
+    <p> Available allocations now are: {{a}}</p>
+<input type="submit" name="submit_button" value="Add" style="width: 40vw;"class="button">
+</div>
+</form>
+</body>
+</html>

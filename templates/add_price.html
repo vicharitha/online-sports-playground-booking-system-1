@@ -1,0 +1,19 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Add price</title>
+    <link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='/turf.css') }}">
+</head>
+<body>
+<form action="/add_price" method="POST" style = "width: 50vw;height:50vh;margin-top: 25vh;text-align: center;">
+<div class="" style="width:50vw">
+<h1>Add price</h1>
+    <input type="text" class="" value=""style="width:40vw" placeholder="Enter the location to want to assign" name="loc">
+    <input type="text" class="" value="" style="width:40vw" placeholder="Enter the price" name="price">
+    <p> Prices for locations now are: {{p}}</p>
+<input type="submit" name="submit_button" value="Add" style="width:40vw" class="button">
+</div>
+</form>
+</body>
+</html>
